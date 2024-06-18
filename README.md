@@ -1,7 +1,7 @@
 # Entropy-stable hydrostatic reconstruction schemes for shallow water systems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12087862.svg)](https://doi.org/10.5281/zenodo.12087862)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12087861.svg)](https://doi.org/10.5281/zenodo.12087861)
 
 
 This reproducibility repository contains the information and code to reproduce the results of the article 
