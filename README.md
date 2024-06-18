@@ -1,6 +1,8 @@
 # Entropy-stable hydrostatic reconstruction schemes for shallow water systems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12087862.svg)](https://doi.org/10.5281/zenodo.12087862)
+
 
 This reproducibility repository contains the information and code to reproduce the results of the article 
 
@@ -8,7 +10,15 @@ This reproducibility repository contains the information and code to reproduce t
 
 If you find these results useful, please cite the article mentioned above. If you use the implementations provided here, please also cite this repository as
 
-**Placeholder: Zenodo**
+```bibtex
+@misc{ersing2024hrRepro,
+  title={Reproducibility repository for "{E}ntropy-stable hydrostatic reconstruction schemes for shallow water systems"},
+  author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
+  year={2024},
+  howpublished={\url{https://github.com/patrickersing/paper-2024-es_hydrostatic_reconstruction}},
+  doi={https://doi.org/10.5281/zenodo.12087861}
+}
+```
 
 ## Abstract
 In this work, we develop a new hydrostatic reconstruction procedure  to construct well-balanced schemes for one and multilayer shallow water flows, including wetting and drying. Initially, we derive the method for a path-conservative finite volume scheme and combine it with entropy-conservative fluxes and suitable numerical dissipation to preserve an entropy inequality in the semi-discrete case. We then combine the novel hydrostatic reconstruction with a collocated nodal split-form discontinuous Galerkin spectral element method, extending the method to high-order and curvilinear meshes. The high-order method incorporates an additional positivity-limiter and is blended with a compatible subcell finite volume method to maintain well-balancedness at wet/dry fronts. We prove entropy-stability, well-balancedness and positivity-preservation for both methods.Numerical results for the high-order method validate the theoretical findings and demonstrate the robustness of the scheme.
