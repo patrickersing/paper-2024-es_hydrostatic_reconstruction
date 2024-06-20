@@ -1,4 +1,4 @@
-# Entropy-stable hydrostatic reconstruction schemes for shallow water systems
+# Entropy stable hydrostatic reconstruction schemes for shallow water systems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12087861.svg)](https://doi.org/10.5281/zenodo.12087861)
@@ -12,7 +12,7 @@ If you find these results useful, please cite the article mentioned above. If yo
 
 ```bibtex
 @misc{ersing2024hrRepro,
-  title={Reproducibility repository for "{E}ntropy-stable hydrostatic reconstruction schemes for shallow water systems"},
+  title={Reproducibility repository for "{E}ntropy stable hydrostatic reconstruction schemes for shallow water systems"},
   author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
   year={2024},
   howpublished={\url{https://github.com/patrickersing/paper-2024-es_hydrostatic_reconstruction}},
