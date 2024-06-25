@@ -6,12 +6,23 @@
 
 This reproducibility repository contains the information and code to reproduce the results of the article 
 
-**Placeholder: Paper**
+```bibtex
+@online{ersing2024entropy,
+      title={Entropy stable hydrostatic reconstruction schemes for shallow water systems}, 
+      author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
+      year={2024},
+      month={06},
+      doi={10.48550/arXiv.2406.14119},
+      eprint={2406.14119},
+      eprinttype={arxiv},
+      eprintclass={math.NA}
+}
+```
 
 If you find these results useful, please cite the article mentioned above. If you use the implementations provided here, please also cite this repository as
 
 ```bibtex
-@misc{ersing2024hrRepro,
+@misc{ersing2024entropyRepro,
   title={Reproducibility repository for "{E}ntropy stable hydrostatic reconstruction schemes for shallow water systems"},
   author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
   year={2024},
