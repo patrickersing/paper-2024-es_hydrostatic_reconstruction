@@ -79,16 +79,32 @@ Then execute the following commands in the Julia-REPL to create the respective r
     ```
 
 - **Section 4.4 - Figure 8 + 9**
-    The following command will create Figure 5 + 6 and save them as a `.pdf` within the `WB_ML/` folder
+    The following command will create Figure 8 + 9 and save them as a `.pdf` within the `WB_ML/` folder
     ```julia
     cd("DamBreakTriangularBottom/")
     include("visualization_setup.jl")
     include("visualization_gauge_data.jl")
     cd("../")
     ```
-  
+
 - **Section 4.5 - Figure 10**
-    The following commands creates output files for Figure 8 and converts them to `.vtu` format readable in Paraview
+    The following command will create Figure 10 and save them as a `.pdf` within the `Parabolic_bowl_2d/` folder
+    ```julia
+    cd("Parabolic_bowl_2d/")
+    include("visualization_setup.jl")
+    cd("../")
+    ```
+
+- **Section 4.6 - Figure 11**
+    The following command will create Figure 11 and save them as a `.pdf` within the `Lock_exchange/` folder
+    ```julia
+    cd("Lock_exchange/")
+    include("visualization_setup.jl")
+    cd("../")
+    ```
+  
+- **Section 4.7 - Figure 12**
+    The following commands creates output files for Figure 12 and converts them to `.vtu` format readable in Paraview
     ```julia
     cd("ML_Dambreak/")
     include("elixir_shallowwater_multilayer_dam_break_dry.jl")
@@ -97,7 +113,7 @@ Then execute the following commands in the Julia-REPL to create the respective r
     trixi2vtk("out/solution*", output_directory="out", reinterpolate=false)
     cd("../")
     ```
-    To create Figure 8 then start `Paraview 5.10.0-RC1` and load the statefile `ML_Dambreak/visu.pvsm`
+    To create Figure 12 then start `Paraview 5.10.0-RC1` and load the statefile `ML_Dambreak/visu.pvsm`
 
 ## Authors
 
