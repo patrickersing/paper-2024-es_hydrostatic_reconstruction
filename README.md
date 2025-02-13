@@ -7,15 +7,16 @@
 This reproducibility repository contains the information and code to reproduce the results of the article 
 
 ```bibtex
-@online{ersing2024entropy,
-      title={Entropy stable hydrostatic reconstruction schemes for shallow water systems}, 
-      author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
-      year={2024},
-      month={06},
-      doi={(https://doi.org/10.1016/j.jcp.2025.113802)},
-      eprint={2406.14119},
-      eprinttype={arxiv},
-      eprintclass={math.NA}
+@article{ersing2025entropy,
+title = {Entropy stable hydrostatic reconstruction schemes for shallow water systems},
+journal = {Journal of Computational Physics},
+volume = {527},
+pages = {113802},
+year = {2025},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2025.113802},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999125000853},
+author = {Patrick Ersing and Sven Goldberg and Andrew R. Winters},
 }
 ```
 
