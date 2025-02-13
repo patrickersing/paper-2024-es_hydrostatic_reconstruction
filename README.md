@@ -12,7 +12,7 @@ This reproducibility repository contains the information and code to reproduce t
       author={Ersing, Patrick and Goldberg, Sven and Winters, Andrew R},
       year={2024},
       month={06},
-      doi={[10.48550/arXiv.2406.14119](https://doi.org/10.1016/j.jcp.2025.113802)},
+      doi={(https://doi.org/10.1016/j.jcp.2025.113802)},
       eprint={2406.14119},
       eprinttype={arxiv},
       eprintclass={math.NA}
